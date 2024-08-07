@@ -1,17 +1,24 @@
-# Anthropic CMD
+# Anthropic CLI Assistant
 
 ## Description
 
-a simple command line interface for claude3.5 AI
+a simple command line interface for claude3.5 AI, This tool supports both streaming and non-streaming modes for real-time and batch responses.
+
+## Features
+
+- **Streaming Mode:** Get real-time responses from the AI model as text arrives.
+- **Batch Mode:** Obtain complete responses after processing is finished.
+- **Token Usage Reporting:** Track the number of input and output tokens used.
 
 ## Installation
 
+To set up the Anthropic CLI Assistant, follow these instructions:
+
 ### Prerequisites
 
-List any prerequisites or dependencies required to run the project. For example:
 
-- Python 3.x
-- Any required libraries (e.g., `anthropic`, `python-dotenv`)
+- Python 3.8
+- required libraries (e.g., `anthropic`, `python-dotenv`)
 
 ### Steps
 
@@ -27,15 +34,25 @@ List any prerequisites or dependencies required to run the project. For example:
     ```bash
     pip install -r requirements.txt
     ```
+4. edit the example.env and add your API key:
+    ```bash
+    ANTHROPIC_API_KEY=your_api_key_here
+    ```
 
 ## Usage
 
-Provide instructions on how to use the project. This could include example commands, code snippets, or screenshots. For example:
+### Streaming Mode
+
+Run the CLI assistant in streaming mode to receive responses in real-time:
+```bash
+python assist_stream.py
+```
+### Normal Mode
 
 ```bash
-python your_script.py
+python assistant.py
 ```
 
 ## License
 
-Include licensing information here if applicable.
+None.
