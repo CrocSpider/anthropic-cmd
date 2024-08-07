@@ -1,0 +1,51 @@
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment
+venv/
+.env
+
+# IDE and Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Data files
+*.sqlite3
+*.db
+
+# Misc
+*.DS_Store
+*.coverage
+*.mypy_cache/
+*.pytest_cache/
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+*.tox/
+*.nox/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Cython Debugging
+cython_debug/
