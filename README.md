@@ -1,6 +1,4 @@
-# Project Title
-
-Anthropic CMD
+# Anthropic CMD
 
 ## Description
 
