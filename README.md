@@ -19,11 +19,11 @@ List any prerequisites or dependencies required to run the project. For example:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/CrocSpider/anthropic-cmd
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repository
+    cd anthropic-cmd
     ```
 3. Install the required dependencies:
     ```bash
